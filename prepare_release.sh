@@ -32,7 +32,7 @@ FILES=(
 )
 
 for FILE in ${FILES[@]}; do
-    scp $USER@$SERVER_IP:/home/$USER/aosp/out/target/product/taoyao/$FILE images
+    scp $USER@$SERVER_IP:/home/$USER/pixelos/out/target/product/taoyao/$FILE images
 done
 
 zip -r PixelOS_taoyao-15.0.zip bin/ images/
