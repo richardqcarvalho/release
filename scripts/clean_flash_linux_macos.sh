@@ -7,4 +7,5 @@ else
     fastboot_bin=bin/linux/fastboot
 fi
 
+$fastboot_bin wipe-super images/super_empty.img
 $fastboot_bin flashall -w

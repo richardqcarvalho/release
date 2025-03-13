@@ -22,6 +22,7 @@ FILES=(
     fastboot-info.txt
     odm.img
     product.img
+    super_empty.img
     system_ext.img
     system.img
     vbmeta_system.img
