@@ -16,20 +16,37 @@ for OPERATIONAL_SYSTEM in ${OPERATIONAL_SYSTEMS[@]}; do
 done
 
 FILES=(
+    abl.img
     android-info.txt
+    aop.img
+    bluetooth.img
     boot.img
+    cpucp.img
+    devcfg.img
+    dsp.img
     dtbo.img
     fastboot-info.txt
+    featenabler.img
+    hyp.img
+    imagefv.img
+    keymaster.img
+    modem.img
     odm.img
     product.img
+    qupfw.img
+    shrm.img
     super_empty.img
     system_ext.img
     system.img
+    tz.img
+    uefisecapp.img
     vbmeta_system.img
     vbmeta.img
     vendor_boot.img
     vendor_dlkm.img
     vendor.img
+    xbl_config.img
+    xbl.img
 )
 
 for FILE in ${FILES[@]}; do
